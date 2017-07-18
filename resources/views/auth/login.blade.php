@@ -7,8 +7,9 @@
         <div class="col-xs-12 col-md-6 col-md-offset-3">
 
           <div class="signup-box">
-            <img class="logo" src="/img/small-logo.png" alt="">
-            <h2>Login to your account</h2>
+            <div class="logo">
+              <img src="/img/small-logo-black.png" alt="">
+            </div>
 
             @include ('partials.errors')
 
@@ -21,25 +22,25 @@
               </div>
 
               <div class="form-group">
-                <label for="password">Password</label>
+                <label for="password">Senha</label>
                 <input type="password" class="form-control" id="password" name="password">
               </div>
 
               <div class="form-group actions">
-                <button type="submit" class="btn btn-primary">Login</button>
+                <button type="submit" class="btn btn-primary">Entrar</button>
               </div>
 
               <div class="checkbox">
                 <label for="remember">
-                  <input type="checkbox" name="remember" id="remember" checked> Remember Me
+                  <input type="checkbox" name="remember" id="remember" checked> Lembrar meus dados
                 </label>
               </div>
 
               <div class="form-group links">
                 <ul>
-                  <li>Forget your password? <a href="/password/reset">Reset your password</a></li>
+                  <li>Esqueceu sua senha? <a href="/password/reset">Resetar sua senha</a></li>
                   @if(config('monica.disable_signup') == false)
-                    <li>Don't have an account? <a href="/register">Sign up</a></li>
+                    <li>Não tem uma conta? <a href="/register">Cadastre-se</a></li>
                   @endif
                 </ul>
               </div>

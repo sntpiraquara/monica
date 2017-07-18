@@ -4,7 +4,7 @@
       <div class="hidden-sm-down col-sm-2">
         <div class="logo">
           <a href="/people">
-            <img src="/img/small-logo.png" width="40" />
+            <img src="/img/small-logo.png" />
           </a>
         </div>
       </div>

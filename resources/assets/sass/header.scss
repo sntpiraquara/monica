@@ -1,14 +1,23 @@
 header {
-  background-color: #325776;
+  background-color: black;
 
   .main-cta {
     position: relative;
     top: 16px;
   }
-}
 
-.logo {
-  margin: 10px 0;
+  .logo {
+    margin: 5px 0;
+
+    img{
+      height: 35px;
+    }
+
+    a:hover{
+      background-color: transparent !important;
+    }
+  }
+
 }
 
 .header-search {
@@ -34,7 +43,7 @@ header {
 }
 
 .header-nav {
-  margin-top: 24px;
+  margin-top: 13px;
   text-align: right;
 }
 
